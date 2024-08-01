@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body {
+    background-image: url(./Images/dark-gray-wall-with-wooden-plank-product-background\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.colors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+   
+}
+
+#first-color-box {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#sixth-color-box {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn {
+   margin: 30px;
+    text-align: center;
+}
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.colorfulDiv {
+    width: 100px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+     /* Optional border */
+    /* Optional rounded corners */
+    text-align: center; /* Center text horizontally */
+    position: relative; /* For absolute positioning of pseudo-element */
+}
+
+
+.colorfulDiv span{
+    display: block;
+}
+
