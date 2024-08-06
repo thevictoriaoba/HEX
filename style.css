@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100vh;
 }
 
 
@@ -198,11 +199,29 @@ button {
 
     .colors{
         display: flex;
+        row-gap: 20px;
         justify-content: center;
         align-items: center;
         margin-top: 50px ;
         flex-wrap: wrap;
        
+    }
+
+    .colorfulDiv {
+        width: 100px; /* Adjust width as needed */
+        height: 200px; /* Adjust height as needed */
+        
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: sans-serif;
+         /* Optional border */
+        /* Optional rounded corners */
+        text-align: center; /* Center text horizontally */
+        position: relative; /* For absolute positioning of pseudo-element */
     }
     #first-color-box, #fourth-color-box {
         border-top-left-radius:10px;
